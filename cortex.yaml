@@ -1,0 +1,14 @@
+---
+info:
+  title: Intsights Splunk Connector
+  x-cortex-git:
+    github:
+      alias: intsightsorg
+      repository: Intsights/intsights-splunk-connector
+  x-cortex-tag: intsights-splunk-connector
+  x-cortex-type: service
+  x-cortex-domain-parents:
+  - tag: threatintel-rd
+openapi: 3.0.1
+servers:
+- url: "/"
